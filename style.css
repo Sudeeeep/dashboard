@@ -34,11 +34,13 @@ body {
 .sidebar-header {
   padding: 1rem 3rem 0 3rem;
   background-color: #7a3ce0;
+  cursor: pointer;
 }
 
 .sub-sidebar > p {
   display: flex;
   gap: 0.5rem;
+  cursor: pointer;
 }
 
 .header {
@@ -85,6 +87,7 @@ button {
   border-radius: 1rem;
   color: white;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .main {
@@ -108,8 +111,9 @@ button {
   gap: 1rem;
   padding: 1rem;
   background-color: white;
-  border-left: 0.5rem solid #23afc5;
+  border-left: 0.5rem solid #fd8469;
   border-radius: 0.5rem;
+  box-shadow: 0.25rem 0.25rem #d3d7de;
 }
 
 .project-icons {
@@ -132,21 +136,33 @@ button {
   padding: 1.5rem;
   background-color: white;
   border-radius: 0.5rem;
+  box-shadow: 0.25rem 0.25rem #d3d7de;
 }
 
 .announcements-content {
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
+  cursor: pointer;
 }
 
 .trending-users {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  cursor: pointer;
 }
 
 .trending-username {
   display: flex;
   flex-direction: column;
+}
+
+.description {
+  color: #6f6f6f;
+  font-size: 0.85rem;
+}
+
+.main-projects {
+  cursor: pointer;
 }
